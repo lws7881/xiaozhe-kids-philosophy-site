@@ -15,7 +15,7 @@
   box-sizing: border-box;
 }
 
-/* Root variables for easy theming */
+/* Robackground-color: var(--primary-colour) */
 :root {
   --primary-colour: #4D65A8; /* soft indigo for headers and buttons */
   --secondary-colour: #F7F8FC; /* light background */
@@ -77,7 +77,7 @@ nav a:hover {
 
 /* Hero section on the home page */
 .hero {
-  background-image: url('images/hero.png');
+  background-image: none;
   background-size: cover;
   background-position: center;
   position: relative;
